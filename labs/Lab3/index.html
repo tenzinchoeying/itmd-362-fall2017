@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
 <head>
-  <title>Lab 3</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-  <link rel="stylesheet" media="screen" href="screen.css" />
+	<title>Lab 3</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+	<link rel="stylesheet" media="screen" href="screen.css" />
 </head>
 <body>
-	<form>
-	Email:
-	<input type ="email" name = "email">
-	Phone number:
-	<input type="phone" name="phone">
-	D.O.B (mmddyyyy): <input type="date" name="bday"> 
-	<input type="submit">
-	</form>
+	<div id="form">
+		<header>
+			<h1>Welcome to the World of Curosity!</h1>
+		</header>
+
+		<h2>The Force will be with you. Always.</h2>
+		<form method = "POST">
+			<fieldset name="Curosity">
+				<legend>Subscribe to receive the secrets of cosmos.</legend>
+				<ul>
+					<li>
+						<label>Email: <input type ="email" name = "email"></label>
+					</li>
+					<li>
+						<label>Phone number: <input type="phone" name="phone"></label>
+					</li>
+					<li>
+						<label>D.O.B (mmddyyyy): <input type="date" name="bday"></label>
+					</li>
+					<li>
+						<input type="submit" value="Submit">
+					</li>
+				</ul>
+			</fieldset> 
+		</form>
+		<footer>
+			<p>Made by Tenzin Choeying</p>
+		</footer>
+	</div>
 
 </body>
 </html>
