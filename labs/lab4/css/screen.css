@@ -204,7 +204,91 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 
+form
+{
+  margin: 0 auto;
+  width: 350px;
+  background-color: lightblue;
+}
+
+#content *
+{
+  line-height: 1em;
+  padding: 1em;
+}
+
+#content h1
+{
+  font-family: 'Parisienne', cursive;
+  font-size: 1.5em;
+  text-align:center;
+  width:300px;
+  margin-left: -1em;
+}
+
+#content p
+{
+  font-family: 'Rouge Script', cursive;
+  font-size: 1em;
+  color:#6B8E23;
+}
+
+#content label
+{
+  font-family: 'Rouge Script', cursive;
+  margin-left: -1em;
+  font-size: 1.5em;
+}
+
+#content input
+{
+  box-sizing: border-box;
+  font-size:20px;
+  margin-top: 0.5em;
+  border-style: none;
+}
+
+input[type="checkbox"]
+{
+  height: 1em;
+  width: 1em;
+  float: left;
+  display: inline;
+  margin-right: 1em;
+}
+
+
 /* ===== MODULAR STYLES ===== */
 
+#email
+{
+  width: 300px;
+  display: block;
+  background-color: #808000;
+}
+
+#age-verification
+{
+  display: block;
+  padding:5px;
+  float:center;
+  width:500px;
+}
+
+#submit
+{
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+
+}
 /* ===== STATE STYLES ======= */
+@media screen and (min-width: 600px)
+{
+  form
+  {
+    background-color: lightblue;
+    color: #808000;
+  }
+}
 
